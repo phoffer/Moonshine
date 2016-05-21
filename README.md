@@ -54,7 +54,7 @@ end
 ```
 
 ## Controllers
-Controllers are objects which can respond to multiple routes. Set the @rotuer instance variable of a controller to specify routing within controller. Add the controller to the app using app.controller method.
+Controllers are objects which can respond to multiple routes. Set the @router instance variable of a controller to specify routing within controller. Add the controller to the app using app.controller method.
 @router maps between a route and an action. Action can be any object with a call method (usually a Proc).
 ```crystal
 # Inherit from Moonshine::Controller to define a controller
